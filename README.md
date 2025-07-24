@@ -32,6 +32,8 @@ http://localhost:8080
 
 💡 Works inside Parrot OS browser (Firefox). You may not access it from your host machine unless you tweak firewall/bridge settings.
 
+---
+
 📂 Project Structure
 
 phishing-sim/
@@ -44,6 +46,9 @@ phishing-sim/
 │   ├── phishing_terminal.png
 │   └── captured_data.png
 └── README.md
+
+---
+
 
 📋 Sample Code Snippet
 
