@@ -1,83 +1,56 @@
-# 🎯 Phishing Simulation Project
+# 🎯 Phishing Simulation Tool
 
-A simple Python-based phishing simulation that mimics a fake Facebook login page to demonstrate how credential harvesting works **for ethical and educational purposes only**.
-
-> 🔒 This project is intended strictly for cybersecurity awareness, ethical hacking education, or penetration testing within legally authorized environments. Do not use for malicious purposes.
+A simple educational phishing simulation tool for ethical use only. This tool spins up a fake login page, collects login attempts, and logs the data — useful for cybersecurity awareness training and testing detection skills.
 
 ---
 
-## 🛠️ How It Works
+## ⚙️ Features
 
-- Hosts a local server on `http://localhost:8080`
-- Displays a fake login form (e.g., `fake_facebook.html`)
-- Captures and logs POSTed data into `logs/captured_data.txt`
-- Useful for learning how phishing attacks work and how to defend against them
+- 🖥️ Simulates a fake login page
+- 📥 Captures entered credentials
+- 📂 Saves logs with timestamps
+- 🚀 Lightweight and easy to run
+- 🔐 For ethical testing purposes only
 
 ---
 
-## 🚀 Getting Started
+## 🛠️ How to Run
 
-### 1. Clone the repo or move into your folder
 ```bash
-cd ~/phishing-sim
-
-2. Run the server
-
-python3 phishing_server.py
+git clone https://github.com/nextplay-box/phishing-sim.git
+cd phishing-sim
+python3 phishing_sim.py
 
 
-3. Open the site on your browser (inside the VM)
-
-http://localhost:8080
-
-💡 Works inside Parrot OS browser (Firefox). You may not access it from your host machine unless you tweak firewall/bridge settings.
-
----
-
-📂 Project Structure
+📁 Project Structure
 
 phishing-sim/
-├── phishing_server.py
-├── fake_facebook.html
+│
+├── phishing_sim.py            # Main server script
+├── templates/
+│   └── index.html             # Phishing login page
 ├── logs/
-│   └── captured_data.txt
-├── screenshots/
-│   ├── fake_facebook_page.png
-│   ├── phishing_terminal.png
-│   └── captured_data.png
+│   └── log_YYYY-MM-DD.txt     # Saved credentials
+├── screenshot/
+│   ├── s1.png
+│   ├── s2.png
+│   ├── s3.png
+│   ├── s4.png
+│   └── s5.png
 └── README.md
 
----
-
-
-📋 Sample Code Snippet
-
-with open(LOG_FILE, "a") as f:
-    f.write(post_data + "\n\n")
-
-Captured POST data is written to logs/captured_data.txt.
 
 🖼️ Screenshots
 
-## 🖼️ Screenshots
-
-### 📌 Tool Running in Terminal
-![Server Start](screenshot/s1.png)
-
-### 📌 Browser Phishing Page
-![Phishing Page](screenshot/s2.png)
-
-### 📌 Credentials Captured
-![Logs](screenshot/s3.png)
-
-### 📌 Sample Log File
-![Log File](screenshot/s4.png)
-
-### 📌 Folder Structure
-![Project Structure](screenshot/s5.png)
-
-
-
 
 🧠 Disclaimer
-This tool is built only for ethical testing and awareness. Do not deploy against users or systems you do not have permission to test. Unauthorized use may violate laws and terms of service.
+This tool is built only for ethical testing and awareness.
+Do not deploy against users or systems you do not have permission to test.
+The author is not responsible for any misuse of this tool.
+
+
+📢 Author
+Created by Augustine Oputa
+Feel free to fork, contribute, or suggest improvements.
+
+
