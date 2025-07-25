@@ -44,7 +44,14 @@ All screenshots are located in the `screenshot/` folder:
 - `s4.png`
 - `s5.png`
 
-You can preview them directly on GitHub if pushed correctly.
+Below are previews from the `screenshot/` folder:
+
+![screenshot1](screenshot/s1.png)
+![screenshot2](screenshot/s2.png)
+![screenshot3](screenshot/s3.png)
+![screenshot4](screenshot/s4.png)
+![screenshot5](screenshot/s5.png)
+
 
 ---
 
