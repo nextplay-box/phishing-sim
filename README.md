@@ -1,29 +1,22 @@
 # 🎯 Phishing Simulation Tool
 
-A simple educational phishing simulation tool for ethical use only. This tool spins up a fake login page, collects login attempts, and logs the data — useful for cybersecurity awareness training and testing detection skills.
+A basic phishing simulation script built for educational and ethical awareness purposes. It serves a fake login page, logs credentials entered, and saves them for review.
 
 ---
 
-## ⚙️ Features
-
-- 🖥️ Simulates a fake login page
-- 📥 Captures entered credentials
-- 📂 Saves logs with timestamps
-- 🚀 Lightweight and easy to run
-- 🔐 For ethical testing purposes only
-
----
-
-## 🛠️ How to Run
+## 🚀 Getting Started
 
 ```bash
 git clone https://github.com/nextplay-box/phishing-sim.git
 cd phishing-sim
 python3 phishing_sim.py
+```
 
+---
 
-📁 Project Structure
+## 📁 Project Structure
 
+```
 phishing-sim/
 │
 ├── phishing_sim.py            # Main server script
@@ -38,19 +31,37 @@ phishing-sim/
 │   ├── s4.png
 │   └── s5.png
 └── README.md
+```
 
+---
 
-🖼️ Screenshots
+## 🖼️ Screenshots
 
+All screenshots are located in the `screenshot/` folder:
+- `s1.png`
+- `s2.png`
+- `s3.png`
+- `s4.png`
+- `s5.png`
 
-🧠 Disclaimer
-This tool is built only for ethical testing and awareness.
-Do not deploy against users or systems you do not have permission to test.
-The author is not responsible for any misuse of this tool.
+You can preview them directly on GitHub if pushed correctly.
 
+---
 
-📢 Author
-Created by Augustine Oputa
-Feel free to fork, contribute, or suggest improvements.
+## 🧠 Disclaimer
 
+This tool is built **only for ethical testing and awareness**.
+
+> ⚠️ **Do not deploy** this tool against users or systems you **do not have explicit permission** to test.
+
+The author is **not responsible** for any misuse of this tool. Use responsibly and within legal boundaries.
+
+---
+
+## 📢 Author
+
+Created by **Augustine Oputa**  
+GitHub: [nextplay-box](https://github.com/nextplay-box)
+
+Feel free to fork, contribute, or suggest improvements!
 
