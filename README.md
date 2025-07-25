@@ -62,7 +62,7 @@ The author is **not responsible** for any misuse of this tool. Use responsibly a
 
 ## 📢 Author
 
-Created by **Augustine Oputa**  
+Created by **Augustine Anapuwa Oputa**  
 GitHub: [nextplay-box](https://github.com/nextplay-box)
 
 Feel free to fork, contribute, or suggest improvements!
