@@ -37,20 +37,16 @@ phishing-sim/
 
 ## 🖼️ Screenshots
 
-All screenshots are located in the `screenshot/` folder:
-- `s1.png`
-- `s2.png`
-- `s3.png`
-- `s4.png`
-- `s5.png`
+🖼️ Screenshots
+All screenshots are located in the `screenshots/` folder.
 
-Below are previews from the `screenshot/` folder:
+Below are previews:
 
-![screenshot1](screenshot/s1.png)
-![screenshot2](screenshot/s2.png)
-![screenshot3](screenshot/s3.png)
-![screenshot4](screenshot/s4.png)
-![screenshot5](screenshot/s5.png)
+![screenshot1](screenshots/s1.png)
+![screenshot2](screenshots/s2.png)
+![screenshot3](screenshots/s3.png)
+![screenshot4](screenshots/s4.png)
+![screenshot5](screenshots/s5.png)
 
 
 ---
