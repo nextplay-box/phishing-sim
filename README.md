@@ -37,7 +37,6 @@ phishing-sim/
 
 ## 🖼️ Screenshots
 
-🖼️ Screenshots
 All screenshots are located in the `screenshots/` folder.
 
 Below are previews:
